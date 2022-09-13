@@ -1,0 +1,11 @@
+version = 0.1
+[y]
+[y.deploy]
+[y.deploy.parameters]
+stack_name = "tasks-serverless-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-g53xgeo0bjd"
+s3_prefix = "tasks-serverless-app"
+region = "ap-south-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
