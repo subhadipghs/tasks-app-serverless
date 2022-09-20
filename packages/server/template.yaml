@@ -9,4 +9,9 @@ Resources:
     Type: AWS::Serverless::Application
     Properties:
       Location: ./hello-world-template.yaml
-     
+
+  TasksTable:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: ./dynamodb-template.yaml
+
