@@ -17,3 +17,7 @@ Resources:
         ReadCapacityUnits: 2
         WriteCapacityUnits: 2
 
+Outputs:
+  TaskTableARN:
+    Description: "ARN of the Task DynamoDB table"
+    Value: !GetAtt TaskTable.Arn
